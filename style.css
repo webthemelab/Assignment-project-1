@@ -117,3 +117,30 @@ body {
   font-size: 16px;
   border-radius: 5px;
 }
+.best-offer {
+  display: flex;
+  padding: 50px;
+  text-align: center;
+}
+.best-offer-image {
+  height: 409px;
+  width: 33%;
+  padding: 0.5em;
+  border: 15px solid red;
+  border-radius: 50%;
+}
+.best-offer-text {
+  height: 255px;
+  width: 33%;
+  text-align: left;
+  padding: 6.5em;
+}
+.best-offer-2024 {
+  height: 255px;
+  width: 33%;
+  text-align: left;
+  padding: 6.5em;
+}
+.best-offer span {
+  color: red;
+}
