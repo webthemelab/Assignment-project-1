@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Merriweather;
 }
@@ -49,4 +50,70 @@ body {
   font-weight: 700;
   font-size: 48px;
   margin-bottom: 20px;
+}
+.welcome-section {
+  height: 600px;
+  width: 1320px;
+  background-image: url(images/Vectorrr.png);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.welcome {
+  height: 600px;
+  width: 1320px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-around;
+}
+.welcome-tex {
+  text-align: left;
+  padding: 166px;
+}
+.welcome h1 {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+}
+.welcome img {
+  padding: 4.5em;
+}
+.join-now {
+  text-align: center;
+  position: relative;
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.join-now-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.join-now-text span {
+  color: red;
+}
+.join-now-text button {
+  background-color: #b3003b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
 }
