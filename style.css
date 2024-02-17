@@ -144,3 +144,16 @@ body {
 .best-offer span {
   color: red;
 }
+.holyday {
+  height: 232px;
+  width: 1320px;
+  text-align: center;
+  padding: 200px;
+}
+.holyday span {
+  color: red;
+}
+.Portfolio {
+  width: 1339px;
+  height: 1163px;
+}
