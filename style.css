@@ -10,7 +10,7 @@ body {
 .header {
   background-image: url(images/Banner\ Image.png);
   height: 600px;
-  width: 1320px;
+  width: 1300px;
   position: relative;
   border-radius: 16px;
   margin-left: auto;
@@ -53,7 +53,7 @@ body {
 }
 .welcome-section {
   height: 600px;
-  width: 1320px;
+  width: 1300px;
   background-image: url(images/Vectorrr.png);
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +64,7 @@ body {
 }
 .welcome {
   height: 600px;
-  width: 1320px;
+  width: 1300px;
   display: flex;
   position: absolute;
   top: 50%;
@@ -90,8 +90,10 @@ body {
 .join-now {
   text-align: center;
   position: relative;
-  width: 1320px;
+  width: 1300px;
   height: 482px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 16px;
   background: linear-gradient(
     180deg,
@@ -146,14 +148,144 @@ body {
 }
 .holyday {
   height: 232px;
-  width: 1320px;
+  width: 1300px;
   text-align: center;
   padding: 200px;
 }
 .holyday span {
   color: red;
 }
+.discount-section {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.discount-product1 {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.discount-product2 {
+  left: 20px;
+}
+.dicount-product {
+  position: relative;
+}
+.dicount-image {
+  position: absolute;
+  top: 67px;
+  left: -153px;
+}
+.red-line {
+  position: absolute;
+  top: 433px;
+}
 .Portfolio {
-  width: 1339px;
+  width: 1300px;
   height: 1163px;
+  left: 121px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+.Portfolio-text {
+  padding: 26px;
+}
+.Portfolio h3 {
+  color: red;
+}
+.Portfolio h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.Portfolio p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.Portfolio-image {
+  display: flex;
+
+  justify-content: space-around;
+}
+.Portfolio-image img {
+  padding: 0.6rem;
+}
+.Subscribe {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  width: 1300px;
+  height: 482px;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.Subscribe-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Subscribe input {
+  padding: 12px 20px;
+  border-radius: 50px;
+}
+.Subscribe button {
+  margin: auto;
+  max-width: 300px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  background-color: red;
+  margin-top: 10px;
+}
+.footer-content {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  width: 1300px;
+  height: 482px;
+  border-radius: 16px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 50px;
+  text-align: left;
+}
+.footer-icon {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer-icon i {
+  border: 2px solid wheat;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer-text {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 120px;
+  text-align: left;
 }
